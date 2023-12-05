@@ -8,8 +8,7 @@ Kodluyoruz Başlangıç Eğitimi kapsamında  kullanacağım repo.
 
 *  İstanbul
 *  Samsun
-*  Mardin
-
+*  Ağrı
 
 ------
 ### Aramaya Devam et :
