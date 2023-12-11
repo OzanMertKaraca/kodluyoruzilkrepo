@@ -6,32 +6,47 @@
     <title>HTML Ödev 1</title>
 </head>
 <body>
-    <h1>Listeler</h1>
+    <h2> Emmet</h2>
+
     <!--
-        Sıralı Listeler -> 1,2,3 ordered list ? -> ol
-        Sırasız Listeler -> * , * , * unordered list -> ul
+        etiket isimleri direkt kullanılabilir.
+        + kardeş öğe
+        > içerisindeki öğe
+        ^ yukarı çık ve öğe oluştur
+        * çarpımı kadar öğe oluştur. p*3
+        . class
+        # id
     -->
 
-    <ol>
-        <li>Liste Öğesi
-            <ul>
-                <li>Liste Öğesi </li>
-                <li>Liste Öğesi </li>
-                <li>Liste Öğesi </li>
-            </ul>
-        </li>
-        <li>Liste Öğesi </li>
-        <li>Liste Öğesi </li>
-            <ul>
-                <li>Liste Öğesi </li>
-                <li>Liste Öğesi </li>
-                <li>Liste Öğesi </li>
-            </ul>
-        <li>Liste Öğesi </li>
-    </ol>
+<!-- p>lorem3 -->  <p>Lorem, ipsum dolor.</p>   <p>Lorem ipsum dolor sit amet.</p> Lorem
 
+<!-- ul>li*3>lorem1^^p*2>lorem4+h3>lorem1  -->
+<ul>
+    <li>Lorem.</li>
+    <li>Illum?</li>
+    <li>Veniam!</li>
+</ul>
+<p>
+    Lorem ipsum dolor sit.
+    <h3>Lorem.</h3>
+</p>
+<p>
+    Totam eligendi accusantium dolore?
+    <h3>Quisquam?</h3>
+</p>
 
-  
+<!-- h3.deneme -->        <h3 class="deneme"></h3> 
+<!-- h3#dene.deneme -->  <h3 id="dene" class="deneme"></h3> 
+<!-- h3.button.style  --> <h3 class="button style"></h3> 
+
+<!-- .tnt -->        <div class="tnt"></div> 
+
+<!-- ul.ozn-tnt*3 -->
+<ul>
+    <li class="ozn-tnt"></li>
+    <li class="ozn-tnt"></li>
+    <li class="ozn-tnt"></li>
+</ul>
 
 </body>
 </html>
