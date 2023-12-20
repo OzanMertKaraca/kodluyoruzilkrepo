@@ -1,0 +1,22 @@
+body{
+    background-color:blanchedalmond;
+}
+h1{
+    color: brown;
+    font-weight: bolder;
+}
+p{
+    font-weight:bolder;
+    color:black;
+}
+.test{
+    height: auto;
+    width: 250px;
+    
+    text-align: center;
+
+ margin-left: 500px;
+}
+h4{
+    margin-left: 850px;
+}
