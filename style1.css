@@ -1,0 +1,61 @@
+body{
+    background-color: burlywood;
+}
+.header{
+    
+    width:100px;
+    height: 100px;
+}
+ul{
+    list-style-type: none;
+    float: left;
+    width:400px;
+    background-color:cadetblue;
+    justify-content: center;
+    margin-left: 450px;
+    text-align: center;
+    padding: 10px;
+    
+}
+li{
+    margin-left: 15px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+   
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+ background-color: aquamarine;  
+ color: blue;  
+}
+.main{
+   border: 2px dotted;
+    height: 350px;
+    width: 800px;
+    margin-left: 250px;
+}
+.kutu{
+
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.kutu2
+{
+    
+    height: 200px;
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+p{
+    margin-left: 5px;
+    text-align: center;
+}
